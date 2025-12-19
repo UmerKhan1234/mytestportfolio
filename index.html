@@ -1,0 +1,138 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <!-- Link CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav aria-label="Primary">
+      <a href="#home">Your Name</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Home Section -->
+    <section id="home">
+      <h1>Hi, I’m Your Name</h1>
+      <p>A short tagline about what you do (e.g., Beginner Developer | AI Enthusiast | Web Builder).</p>
+      <p>
+        <a href="#portfolio">View My Work</a>
+        <a href="#contact">Contact Me</a>
+      </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Write a short bio here. Mention your interests (coding, AI, automations, web dev) and what you’re learning or
+        building.
+      </p>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>Python (Beginner)</li>
+        <li>HTML & CSS (Beginner)</li>
+        <li>JavaScript (Beginner)</li>
+        <li>AI & Automation (Learning)</li>
+      </ul>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Here are a few projects I’ve worked on:</p>
+
+      <article>
+        <h3>Project Title 1</h3>
+        <p>Short description of what this project does and what tools you used.</p>
+        <p>
+          <a href="#" target="_blank" rel="noopener">Live Demo</a> |
+          <a href="#" target="_blank" rel="noopener">GitHub Repo</a>
+        </p>
+      </article>
+
+      <article>
+        <h3>Project Title 2</h3>
+        <p>Short description of what this project does and what tools you used.</p>
+        <p>
+          <a href="#" target="_blank" rel="noopener">Live Demo</a> |
+          <a href="#" target="_blank" rel="noopener">GitHub Repo</a>
+        </p>
+      </article>
+
+      <article>
+        <h3>Project Title 3</h3>
+        <p>Short description of what this project does and what tools you used.</p>
+        <p>
+          <a href="#" target="_blank" rel="noopener">Live Demo</a> |
+          <a href="#" target="_blank" rel="noopener">GitHub Repo</a>
+        </p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you’d like to connect, send me a message below.</p>
+
+      <form action="#" method="post">
+        <label for="name">Name</label><br />
+        <input id="name" name="name" type="text" required /><br /><br />
+
+        <label for="email">Email</label><br />
+        <input id="email" name="email" type="email" required /><br /><br />
+
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <button type="submit">Send</button>
+      </form>
+
+      <h3>Elsewhere</h3>
+      <ul>
+        <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="mailto:you@example.com">you@example.com</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Optional: auto-update the year in the footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <!-- Back to top button -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- JavaScript -->
+  <script src="script.js">
+    // Back-to-Top Button Script
+  </script>
+</body>
+
+</html>
+```
